@@ -1,0 +1,126 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  color: #333;
+  font-family: sans-serif, Courier, monospace;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+ul li,
+ol li {
+  list-style: none;
+}
+
+a {
+  color: #333;
+}
+
+.header .header_sbs {
+  display: flex;
+  height: 700px;
+}
+.header .header_sbs .hero_img {
+  width: 50%;
+  overflow: hidden;
+  position: relative;
+}
+.header .header_sbs .hero_img img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: -176px;
+}
+.header .header_sbs .header_txt {
+  width: 50%;
+  padding-left: 84px;
+}
+.header .header_sbs .header_txt .header_txt_title .header_title {
+  padding: 40px 0 0;
+}
+.header .header_sbs .header_txt .header_txt_title p {
+  padding: 20px 0 0;
+}
+.header .header_sbs .header_txt .header_txt_title .header_list01,
+.header .header_sbs .header_txt .header_txt_title .header_list02 {
+  width: 673px;
+  padding: 30px 0 0;
+}
+.header .header_sbs .header_txt .header_txt_title .header_list01 .list_title,
+.header .header_sbs .header_txt .header_txt_title .header_list02 .list_title {
+  padding: 10px 0 5px;
+  border-bottom: 1px solid black;
+}
+.header .header_sbs .header_txt .header_txt_title .header_list01 .header_list_ul,
+.header .header_sbs .header_txt .header_txt_title .header_list02 .header_list_ul {
+  padding: 0;
+  padding-top: 10px;
+  margin: 0;
+}
+.header .header_sbs .header_txt .header_txt_title .header_list01 .header_list_ul li,
+.header .header_sbs .header_txt .header_txt_title .header_list02 .header_list_ul li {
+  list-style: none;
+  padding: 15px 0 5px;
+  line-height: 1;
+}
+.header .header_sbs .header_txt .header_txt_title .header_list01 .header_list_ul .list_li_sbs {
+  border-bottom: 1px dotted black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .header_sbs .header_txt .header_txt_title .header_list01 .header_list_ul .list_li_sbs .list_li {
+  border-bottom: none;
+}
+.header .header_sbs .header_txt .header_txt_title .header_list01 .header_list_ul .list_li_sbs .list_p {
+  padding: 0;
+}
+.header .header_sbs .header_txt .header_txt_title .header_list02 {
+  padding: 35px 0 0;
+}
+
+.button,
+.footer {
+  text-align: center;
+}
+
+.button {
+  padding-top: 62px;
+}
+.button button {
+  width: 234px;
+  height: 59px;
+}
+
+.footer {
+  padding-top: 10px;
+}
+.footer .sns_section {
+  display: flex;
+  justify-content: center;
+  padding-top: 88px;
+}
+.footer .sns_section .sns_link a p {
+  font-size: 12px;
+}
+.footer .sns_section .sns_link01,
+.footer .sns_section .sns_link02 {
+  padding-right: 13px;
+}
+.footer .footer_c {
+  padding-top: 16px;
+}
+.footer .footer_c p {
+  font-size: 12px;
+}/*# sourceMappingURL=style.css.map */
